@@ -1,0 +1,78 @@
+# Copyright (c) 2003-2018, CKSource - Frederico Knabben. All rights reserved.
+msgid ""
+msgstr ""
+"Language-Team: Dutch (https://www.transifex.com/ckeditor/teams/11143/nl/)\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "Label for the insert table toolbar button."
+msgid "Insert table"
+msgstr "Tabel invoegen"
+
+msgctxt "Label for the set/unset table header column button."
+msgid "Header column"
+msgstr "Titel kolom"
+
+msgctxt "Label for the insert table column before the current one button."
+msgid "Insert column before"
+msgstr "Kolom hiervoor invoegen"
+
+msgctxt "Label for the insert table column after the current one button."
+msgid "Insert column after"
+msgstr "Kolom hierna invoegen"
+
+msgctxt "Label for the delete table column button."
+msgid "Delete column"
+msgstr "Verwijder kolom"
+
+msgctxt "Label for the table column dropdown button."
+msgid "Column"
+msgstr "Kolom"
+
+msgctxt "Label for the set/unset table header row button."
+msgid "Header row"
+msgstr "Titel rij"
+
+msgctxt "Label for the insert row below button."
+msgid "Insert row below"
+msgstr "Rij hieronder invoegen"
+
+msgctxt "Label for the insert row above button."
+msgid "Insert row above"
+msgstr "Rij hierboven invoegen"
+
+msgctxt "Label for the delete table row button."
+msgid "Delete row"
+msgstr "Verwijder rij"
+
+msgctxt "Label for the table row dropdown button."
+msgid "Row"
+msgstr "Rij"
+
+msgctxt "Label for the merge table cell up button."
+msgid "Merge cell up"
+msgstr "Cel hierboven samenvoegen"
+
+msgctxt "Label for the merge table cell right button."
+msgid "Merge cell right"
+msgstr "Cel hierna samenvoegen"
+
+msgctxt "Label for the merge table cell down button."
+msgid "Merge cell down"
+msgstr "Cel hieronder samenvoegen"
+
+msgctxt "Label for the merge table cell left button."
+msgid "Merge cell left"
+msgstr "Cel hiervoor samenvoegen"
+
+msgctxt "Label for the split table cell vertically button."
+msgid "Split cell vertically"
+msgstr "Splits cel verticaal"
+
+msgctxt "Label for the split table cell horizontally button."
+msgid "Split cell horizontally"
+msgstr "Splits cel horizontaal"
+
+msgctxt "Label for the merge table cells button."
+msgid "Merge cells"
+msgstr "Cellen samenvoegen"

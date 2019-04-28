@@ -1,0 +1,918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17EA60C3691943BBD0616123 /* libPods-CYLTabBarController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA249561F1CFF80B0A694469 /* libPods-CYLTabBarController.a */; };
+		2C95C44A227559AF00FDBB8D /* UIBarButtonItem+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95C426227559AF00FDBB8D /* UIBarButtonItem+CYLBadgeExtention.m */; };
+		2C95C44B227559AF00FDBB8D /* CYLBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95C427227559AF00FDBB8D /* CYLBaseTableViewController.m */; };
+		2C95C44C227559AF00FDBB8D /* UIView+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95C430227559AF00FDBB8D /* UIView+CYLTabBarControllerExtention.m */; };
+		2C95C44D227559AF00FDBB8D /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95C432227559AF00FDBB8D /* UITabBarItem+CYLTabBarControllerExtention.m */; };
+		2C95C44E227559AF00FDBB8D /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95C435227559AF00FDBB8D /* CYLTabBarController.m */; };
+		2C95C44F227559AF00FDBB8D /* CYLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95C436227559AF00FDBB8D /* CYLBaseNavigationController.m */; };
+		2C95C450227559AF00FDBB8D /* UITabBarItem+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95C438227559AF00FDBB8D /* UITabBarItem+CYLBadgeExtention.m */; };
+		2C95C451227559AF00FDBB8D /* UIView+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95C43B227559AF00FDBB8D /* UIView+CYLBadgeExtention.m */; };
+		2C95C452227559AF00FDBB8D /* CAAnimation+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95C43C227559AF00FDBB8D /* CAAnimation+CYLBadgeExtention.m */; };
+		2C95C453227559AF00FDBB8D /* CYLTabBar+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95C43D227559AF00FDBB8D /* CYLTabBar+CYLTabBarControllerExtention.m */; };
+		2C95C454227559AF00FDBB8D /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95C43E227559AF00FDBB8D /* CYLTabBar.m */; };
+		2C95C455227559AF00FDBB8D /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95C43F227559AF00FDBB8D /* CYLPlusButton.m */; };
+		2C95C456227559AF00FDBB8D /* UIImage+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95C440227559AF00FDBB8D /* UIImage+CYLTabBarControllerExtention.m */; };
+		2C95C457227559AF00FDBB8D /* UIViewController+CYLNavigationControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95C441227559AF00FDBB8D /* UIViewController+CYLNavigationControllerExtention.m */; };
+		2C95C458227559AF00FDBB8D /* CYLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95C443227559AF00FDBB8D /* CYLBaseViewController.m */; };
+		2C95C459227559AF00FDBB8D /* UIControl+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95C446227559AF00FDBB8D /* UIControl+CYLTabBarControllerExtention.m */; };
+		2C95C45A227559AF00FDBB8D /* UIViewController+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C95C447227559AF00FDBB8D /* UIViewController+CYLTabBarControllerExtention.m */; };
+		9A1559C81CB6D4D300CAB1AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1559C61CB6D4D300CAB1AF /* AppDelegate.m */; };
+		9A1559DB1CB6D56500CAB1AF /* CYLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1559CC1CB6D56500CAB1AF /* CYLHomeViewController.m */; };
+		9A1559DC1CB6D56500CAB1AF /* CYLMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1559CF1CB6D56500CAB1AF /* CYLMessageViewController.m */; };
+		9A1559DD1CB6D56500CAB1AF /* CYLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1559D21CB6D56500CAB1AF /* CYLMineViewController.m */; };
+		9A1559DE1CB6D56500CAB1AF /* CYLDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1559D51CB6D56500CAB1AF /* CYLDetailsViewController.m */; };
+		9A1559DF1CB6D56500CAB1AF /* CYLSameCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1559D71CB6D56500CAB1AF /* CYLSameCityViewController.m */; };
+		9A1559E41CB6EB1F00CAB1AF /* CYLPlusButtonSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1559E31CB6EB1F00CAB1AF /* CYLPlusButtonSubclass.m */; };
+		9A3865F62266FA3C008EE46F /* tab_message_animate.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A3865F22266FA3C008EE46F /* tab_message_animate.json */; };
+		9A3865F72266FA3C008EE46F /* tab_home_animate.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A3865F32266FA3C008EE46F /* tab_home_animate.json */; };
+		9A3865F82266FA3C008EE46F /* tab_search_animate.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A3865F42266FA3C008EE46F /* tab_search_animate.json */; };
+		9A3865F92266FA3C008EE46F /* tab_me_animate.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A3865F52266FA3C008EE46F /* tab_me_animate.json */; };
+		9A7C59902181C39000EDB266 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7C598E2181C39000EDB266 /* MainTabBarController.m */; };
+		9AC0181B1FE90AA1001EC2D6 /* CYLPlusDemoChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0181A1FE90AA1001EC2D6 /* CYLPlusDemoChildViewController.m */; };
+		9AE0BD3122303BA800302A35 /* CYLMainRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE0BD3022303BA800302A35 /* CYLMainRootViewController.m */; };
+		9AE942E71BDC933E00354519 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AE942CB1BDC933E00354519 /* LaunchScreen.xib */; };
+		9AE942E81BDC933E00354519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE942CD1BDC933E00354519 /* Main.storyboard */; };
+		9AE942EF1BDC933E00354519 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE942E31BDC933E00354519 /* Images.xcassets */; };
+		9AE942F11BDC933E00354519 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE942E51BDC933E00354519 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C95C426227559AF00FDBB8D /* UIBarButtonItem+CYLBadgeExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		2C95C427227559AF00FDBB8D /* CYLBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLBaseTableViewController.m; sourceTree = "<group>"; };
+		2C95C428227559AF00FDBB8D /* UITabBarItem+CYLBadgeExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		2C95C429227559AF00FDBB8D /* UIImage+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		2C95C42A227559AF00FDBB8D /* CYLPlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLPlusButton.h; sourceTree = "<group>"; };
+		2C95C42B227559AF00FDBB8D /* CYLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBar.h; sourceTree = "<group>"; };
+		2C95C42C227559AF00FDBB8D /* CYLTabBar+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CYLTabBar+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		2C95C42D227559AF00FDBB8D /* CAAnimation+CYLBadgeExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		2C95C42E227559AF00FDBB8D /* UIView+CYLBadgeExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		2C95C42F227559AF00FDBB8D /* UIControl+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		2C95C430227559AF00FDBB8D /* UIView+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		2C95C431227559AF00FDBB8D /* CYLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLBaseViewController.h; sourceTree = "<group>"; };
+		2C95C432227559AF00FDBB8D /* UITabBarItem+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		2C95C433227559AF00FDBB8D /* CYLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLConstants.h; sourceTree = "<group>"; };
+		2C95C434227559AF00FDBB8D /* UIViewController+CYLNavigationControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CYLNavigationControllerExtention.h"; sourceTree = "<group>"; };
+		2C95C435227559AF00FDBB8D /* CYLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarController.m; sourceTree = "<group>"; };
+		2C95C436227559AF00FDBB8D /* CYLBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLBaseNavigationController.m; sourceTree = "<group>"; };
+		2C95C437227559AF00FDBB8D /* UIViewController+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		2C95C438227559AF00FDBB8D /* UITabBarItem+CYLBadgeExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		2C95C439227559AF00FDBB8D /* CYLBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLBaseTableViewController.h; sourceTree = "<group>"; };
+		2C95C43A227559AF00FDBB8D /* UIBarButtonItem+CYLBadgeExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		2C95C43B227559AF00FDBB8D /* UIView+CYLBadgeExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		2C95C43C227559AF00FDBB8D /* CAAnimation+CYLBadgeExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		2C95C43D227559AF00FDBB8D /* CYLTabBar+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CYLTabBar+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		2C95C43E227559AF00FDBB8D /* CYLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBar.m; sourceTree = "<group>"; };
+		2C95C43F227559AF00FDBB8D /* CYLPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButton.m; sourceTree = "<group>"; };
+		2C95C440227559AF00FDBB8D /* UIImage+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		2C95C441227559AF00FDBB8D /* UIViewController+CYLNavigationControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CYLNavigationControllerExtention.m"; sourceTree = "<group>"; };
+		2C95C442227559AF00FDBB8D /* UITabBarItem+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		2C95C443227559AF00FDBB8D /* CYLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLBaseViewController.m; sourceTree = "<group>"; };
+		2C95C444227559AF00FDBB8D /* CYLBadgeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLBadgeProtocol.h; sourceTree = "<group>"; };
+		2C95C445227559AF00FDBB8D /* UIView+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		2C95C446227559AF00FDBB8D /* UIControl+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		2C95C447227559AF00FDBB8D /* UIViewController+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		2C95C448227559AF00FDBB8D /* CYLBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLBaseNavigationController.h; sourceTree = "<group>"; };
+		2C95C449227559AF00FDBB8D /* CYLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarController.h; sourceTree = "<group>"; };
+		89D5086598A9EFD751C286DB /* Pods-CYLTabBarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYLTabBarController.debug.xcconfig"; path = "Target Support Files/Pods-CYLTabBarController/Pods-CYLTabBarController.debug.xcconfig"; sourceTree = "<group>"; };
+		8A12E1E008D40054CA1B0110 /* Pods-CYLTabBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CYLTabBarController.release.xcconfig"; path = "Target Support Files/Pods-CYLTabBarController/Pods-CYLTabBarController.release.xcconfig"; sourceTree = "<group>"; };
+		9A1559C61CB6D4D300CAB1AF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A1559C71CB6D4D300CAB1AF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A1559CB1CB6D56500CAB1AF /* CYLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLHomeViewController.h; sourceTree = "<group>"; };
+		9A1559CC1CB6D56500CAB1AF /* CYLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLHomeViewController.m; sourceTree = "<group>"; };
+		9A1559CE1CB6D56500CAB1AF /* CYLMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLMessageViewController.h; sourceTree = "<group>"; };
+		9A1559CF1CB6D56500CAB1AF /* CYLMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLMessageViewController.m; sourceTree = "<group>"; };
+		9A1559D11CB6D56500CAB1AF /* CYLMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLMineViewController.h; sourceTree = "<group>"; };
+		9A1559D21CB6D56500CAB1AF /* CYLMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLMineViewController.m; sourceTree = "<group>"; };
+		9A1559D41CB6D56500CAB1AF /* CYLDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLDetailsViewController.h; sourceTree = "<group>"; };
+		9A1559D51CB6D56500CAB1AF /* CYLDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLDetailsViewController.m; sourceTree = "<group>"; };
+		9A1559D61CB6D56500CAB1AF /* CYLSameCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLSameCityViewController.h; sourceTree = "<group>"; };
+		9A1559D71CB6D56500CAB1AF /* CYLSameCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLSameCityViewController.m; sourceTree = "<group>"; };
+		9A1559E21CB6EB1F00CAB1AF /* CYLPlusButtonSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLPlusButtonSubclass.h; sourceTree = "<group>"; };
+		9A1559E31CB6EB1F00CAB1AF /* CYLPlusButtonSubclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButtonSubclass.m; sourceTree = "<group>"; };
+		9A3865F22266FA3C008EE46F /* tab_message_animate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tab_message_animate.json; sourceTree = "<group>"; };
+		9A3865F32266FA3C008EE46F /* tab_home_animate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tab_home_animate.json; sourceTree = "<group>"; };
+		9A3865F42266FA3C008EE46F /* tab_search_animate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tab_search_animate.json; sourceTree = "<group>"; };
+		9A3865F52266FA3C008EE46F /* tab_me_animate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tab_me_animate.json; sourceTree = "<group>"; };
+		9A579C98225F6E3A00F3C8F0 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Location.gpx; path = ../../../../../Location.gpx; sourceTree = "<group>"; };
+		9A7C598E2181C39000EDB266 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		9A7C598F2181C39000EDB266 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		9AC018191FE90AA1001EC2D6 /* CYLPlusDemoChildViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLPlusDemoChildViewController.h; sourceTree = "<group>"; };
+		9AC0181A1FE90AA1001EC2D6 /* CYLPlusDemoChildViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLPlusDemoChildViewController.m; sourceTree = "<group>"; };
+		9AE0BD2F22303BA800302A35 /* CYLMainRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLMainRootViewController.h; sourceTree = "<group>"; };
+		9AE0BD3022303BA800302A35 /* CYLMainRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLMainRootViewController.m; sourceTree = "<group>"; };
+		9AE942741BDC91B800354519 /* CYLTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYLTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE942921BDC91B900354519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AE942931BDC91B900354519 /* CYLTabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarControllerTests.m; sourceTree = "<group>"; };
+		9AE942CC1BDC933E00354519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9AE942CE1BDC933E00354519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AE942E31BDC933E00354519 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9AE942E41BDC933E00354519 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AE942E51BDC933E00354519 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA249561F1CFF80B0A694469 /* libPods-CYLTabBarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CYLTabBarController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AE942711BDC91B800354519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EA60C3691943BBD0616123 /* libPods-CYLTabBarController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C95C425227559AF00FDBB8D /* CYLTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				2C95C426227559AF00FDBB8D /* UIBarButtonItem+CYLBadgeExtention.m */,
+				2C95C427227559AF00FDBB8D /* CYLBaseTableViewController.m */,
+				2C95C428227559AF00FDBB8D /* UITabBarItem+CYLBadgeExtention.h */,
+				2C95C429227559AF00FDBB8D /* UIImage+CYLTabBarControllerExtention.h */,
+				2C95C42A227559AF00FDBB8D /* CYLPlusButton.h */,
+				2C95C42B227559AF00FDBB8D /* CYLTabBar.h */,
+				2C95C42C227559AF00FDBB8D /* CYLTabBar+CYLTabBarControllerExtention.h */,
+				2C95C42D227559AF00FDBB8D /* CAAnimation+CYLBadgeExtention.h */,
+				2C95C42E227559AF00FDBB8D /* UIView+CYLBadgeExtention.h */,
+				2C95C42F227559AF00FDBB8D /* UIControl+CYLTabBarControllerExtention.h */,
+				2C95C430227559AF00FDBB8D /* UIView+CYLTabBarControllerExtention.m */,
+				2C95C431227559AF00FDBB8D /* CYLBaseViewController.h */,
+				2C95C432227559AF00FDBB8D /* UITabBarItem+CYLTabBarControllerExtention.m */,
+				2C95C433227559AF00FDBB8D /* CYLConstants.h */,
+				2C95C434227559AF00FDBB8D /* UIViewController+CYLNavigationControllerExtention.h */,
+				2C95C435227559AF00FDBB8D /* CYLTabBarController.m */,
+				2C95C436227559AF00FDBB8D /* CYLBaseNavigationController.m */,
+				2C95C437227559AF00FDBB8D /* UIViewController+CYLTabBarControllerExtention.h */,
+				2C95C438227559AF00FDBB8D /* UITabBarItem+CYLBadgeExtention.m */,
+				2C95C439227559AF00FDBB8D /* CYLBaseTableViewController.h */,
+				2C95C43A227559AF00FDBB8D /* UIBarButtonItem+CYLBadgeExtention.h */,
+				2C95C43B227559AF00FDBB8D /* UIView+CYLBadgeExtention.m */,
+				2C95C43C227559AF00FDBB8D /* CAAnimation+CYLBadgeExtention.m */,
+				2C95C43D227559AF00FDBB8D /* CYLTabBar+CYLTabBarControllerExtention.m */,
+				2C95C43E227559AF00FDBB8D /* CYLTabBar.m */,
+				2C95C43F227559AF00FDBB8D /* CYLPlusButton.m */,
+				2C95C440227559AF00FDBB8D /* UIImage+CYLTabBarControllerExtention.m */,
+				2C95C441227559AF00FDBB8D /* UIViewController+CYLNavigationControllerExtention.m */,
+				2C95C442227559AF00FDBB8D /* UITabBarItem+CYLTabBarControllerExtention.h */,
+				2C95C443227559AF00FDBB8D /* CYLBaseViewController.m */,
+				2C95C444227559AF00FDBB8D /* CYLBadgeProtocol.h */,
+				2C95C445227559AF00FDBB8D /* UIView+CYLTabBarControllerExtention.h */,
+				2C95C446227559AF00FDBB8D /* UIControl+CYLTabBarControllerExtention.m */,
+				2C95C447227559AF00FDBB8D /* UIViewController+CYLTabBarControllerExtention.m */,
+				2C95C448227559AF00FDBB8D /* CYLBaseNavigationController.h */,
+				2C95C449227559AF00FDBB8D /* CYLTabBarController.h */,
+			);
+			path = CYLTabBarController;
+			sourceTree = SOURCE_ROOT;
+		};
+		36A0A7E83F2E6D2B770F8CDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89D5086598A9EFD751C286DB /* Pods-CYLTabBarController.debug.xcconfig */,
+				8A12E1E008D40054CA1B0110 /* Pods-CYLTabBarController.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7D5EF7117AB467CA9F870F71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA249561F1CFF80B0A694469 /* libPods-CYLTabBarController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A1559C91CB6D56500CAB1AF /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				9AC018181FE90A70001EC2D6 /* Other */,
+				9A1559CA1CB6D56500CAB1AF /* Home */,
+				9A1559CD1CB6D56500CAB1AF /* Message */,
+				9A1559D01CB6D56500CAB1AF /* Mine */,
+				9A1559D31CB6D56500CAB1AF /* SameCity */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		9A1559CA1CB6D56500CAB1AF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9A1559CB1CB6D56500CAB1AF /* CYLHomeViewController.h */,
+				9A1559CC1CB6D56500CAB1AF /* CYLHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9A1559CD1CB6D56500CAB1AF /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				9A1559CE1CB6D56500CAB1AF /* CYLMessageViewController.h */,
+				9A1559CF1CB6D56500CAB1AF /* CYLMessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		9A1559D01CB6D56500CAB1AF /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				9A1559D11CB6D56500CAB1AF /* CYLMineViewController.h */,
+				9A1559D21CB6D56500CAB1AF /* CYLMineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		9A1559D31CB6D56500CAB1AF /* SameCity */ = {
+			isa = PBXGroup;
+			children = (
+				9A1559D41CB6D56500CAB1AF /* CYLDetailsViewController.h */,
+				9A1559D51CB6D56500CAB1AF /* CYLDetailsViewController.m */,
+				9A1559D61CB6D56500CAB1AF /* CYLSameCityViewController.h */,
+				9A1559D71CB6D56500CAB1AF /* CYLSameCityViewController.m */,
+				9A579C98225F6E3A00F3C8F0 /* Location.gpx */,
+			);
+			path = SameCity;
+			sourceTree = "<group>";
+		};
+		9A1559E11CB6EB1F00CAB1AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A1559E21CB6EB1F00CAB1AF /* CYLPlusButtonSubclass.h */,
+				9A1559E31CB6EB1F00CAB1AF /* CYLPlusButtonSubclass.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A3865CF22663549008EE46F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9A3865D5226635A1008EE46F /* LottieResources */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9A3865D5226635A1008EE46F /* LottieResources */ = {
+			isa = PBXGroup;
+			children = (
+				9A3865F32266FA3C008EE46F /* tab_home_animate.json */,
+				9A3865F52266FA3C008EE46F /* tab_me_animate.json */,
+				9A3865F22266FA3C008EE46F /* tab_message_animate.json */,
+				9A3865F42266FA3C008EE46F /* tab_search_animate.json */,
+			);
+			path = LottieResources;
+			sourceTree = "<group>";
+		};
+		9AC018181FE90A70001EC2D6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9AC018191FE90AA1001EC2D6 /* CYLPlusDemoChildViewController.h */,
+				9AC0181A1FE90AA1001EC2D6 /* CYLPlusDemoChildViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9AE9426B1BDC91B800354519 = {
+			isa = PBXGroup;
+			children = (
+				9AE942C81BDC933E00354519 /* Example */,
+				9AE942901BDC91B900354519 /* CYLTabBarControllerTests */,
+				9AE942751BDC91B800354519 /* Products */,
+				36A0A7E83F2E6D2B770F8CDA /* Pods */,
+				7D5EF7117AB467CA9F870F71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AE942751BDC91B800354519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AE942741BDC91B800354519 /* CYLTabBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AE942901BDC91B900354519 /* CYLTabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AE942931BDC91B900354519 /* CYLTabBarControllerTests.m */,
+				9AE942911BDC91B900354519 /* Supporting Files */,
+			);
+			path = CYLTabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		9AE942911BDC91B900354519 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AE942921BDC91B900354519 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AE942C81BDC933E00354519 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				2C95C425227559AF00FDBB8D /* CYLTabBarController */,
+				9A1559C71CB6D4D300CAB1AF /* AppDelegate.h */,
+				9A1559C61CB6D4D300CAB1AF /* AppDelegate.m */,
+				9A7C598F2181C39000EDB266 /* MainTabBarController.h */,
+				9A7C598E2181C39000EDB266 /* MainTabBarController.m */,
+				9AE0BD2F22303BA800302A35 /* CYLMainRootViewController.h */,
+				9AE0BD3022303BA800302A35 /* CYLMainRootViewController.m */,
+				9AE942CF1BDC933E00354519 /* Classes */,
+				9AE942CB1BDC933E00354519 /* LaunchScreen.xib */,
+				9AE942CD1BDC933E00354519 /* Main.storyboard */,
+				9AE942E31BDC933E00354519 /* Images.xcassets */,
+				9AE942E41BDC933E00354519 /* Info.plist */,
+				9AE942E51BDC933E00354519 /* main.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		9AE942CF1BDC933E00354519 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9A3865CF22663549008EE46F /* Other */,
+				9A1559E11CB6EB1F00CAB1AF /* View */,
+				9A1559C91CB6D56500CAB1AF /* Module */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AE942731BDC91B800354519 /* CYLTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE942971BDC91B900354519 /* Build configuration list for PBXNativeTarget "CYLTabBarController" */;
+			buildPhases = (
+				5B2F02C6CEFA9E652D86AB7B /* [CP] Check Pods Manifest.lock */,
+				9AE942701BDC91B800354519 /* Sources */,
+				9AE942711BDC91B800354519 /* Frameworks */,
+				9AE942721BDC91B800354519 /* Resources */,
+				F936C43F8E0282CB76031412 /* [CP] Embed Pods Frameworks */,
+				4DE1A47BBD4DB5408714F066 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYLTabBarController;
+			productName = CYLTabBarController;
+			productReference = 9AE942741BDC91B800354519 /* CYLTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AE9426C1BDC91B800354519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "微博@iOS程序犭袁";
+				TargetAttributes = {
+					9AE942731BDC91B800354519 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 2NJT7K4VZ7;
+					};
+				};
+			};
+			buildConfigurationList = 9AE9426F1BDC91B800354519 /* Build configuration list for PBXProject "CYLTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 9AE9426B1BDC91B800354519;
+			productRefGroup = 9AE942751BDC91B800354519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AE942731BDC91B800354519 /* CYLTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AE942721BDC91B800354519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE942EF1BDC933E00354519 /* Images.xcassets in Resources */,
+				9AE942E71BDC933E00354519 /* LaunchScreen.xib in Resources */,
+				9A3865F82266FA3C008EE46F /* tab_search_animate.json in Resources */,
+				9AE942E81BDC933E00354519 /* Main.storyboard in Resources */,
+				9A3865F92266FA3C008EE46F /* tab_me_animate.json in Resources */,
+				9A3865F72266FA3C008EE46F /* tab_home_animate.json in Resources */,
+				9A3865F62266FA3C008EE46F /* tab_message_animate.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DE1A47BBD4DB5408714F066 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CYLTabBarController/Pods-CYLTabBarController-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/QIMCommon/QIMCommonResource.bundle",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/call_bg@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_audio_receive_normal@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_audio_receive_press@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_camera_white@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_invite_black@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_invite_blue@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_invite_gray@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_invite_white@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_loudspeaker_black@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_loudspeaker_blue@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_loudspeaker_gray@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_loudspeaker_white@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_mute_black@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_mute_blue@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_mute_gray@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_mute_white@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_reduce_black@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_reduce_blue@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_reduce_gray@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_reduce_white@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_video_black@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_video_blue@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_video_gray@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_avp_video_white@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_av_audio_micro_normal@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_av_audio_micro_press@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_av_audio_receive_normal@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_av_audio_receive_press@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_av_reply_message_normal@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_av_reply_message_press@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_call_reject_normal@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/icon_call_reject_press@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/im_skin_icon_audiocall_bg.jpg",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/portrait.jpg",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/portrait@2x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/voip_camera_icons_130x130_@1x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/voip_camera_icons_66x66_@3x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/voip_convert_icons_130x130_@1x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/icons/voip_convert_icons_66x66_@3x.png",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/sound/AVChat_busy.mp3",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/sound/AVChat_endCall.mp3",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/sound/AVChat_incoming.mp3",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/sound/AVChat_waitingForAnswer.mp3",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/sound/incomingRing.wav",
+				"${PODS_ROOT}/QIMGeneralModule/QIMGeneralModule/WebRTC/RTC/sound/Message_system.mp3",
+				"${PODS_CONFIGURATION_BUILD_DIR}/QIMKitVendor/QIMPinYin.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/QIMUIKit/QIMSourceCode.bundle",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/General/Verders/QIMMWPhotoBrowser/Assets",
+				"${PODS_ROOT}/QIMUIKit/QIMNoteUI/CKEditor5.bundle",
+				"${PODS_ROOT}/QIMUIKit/QIMNoteUI/QTPassword/EditPasswordView.xib",
+				"${PODS_ROOT}/QIMUIKit/QIMRNKit/QIMRNKit.bundle",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/片段/eula.html",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/片段/NetWorkSetting.html",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/片段/QIMMicroTourRoot.css",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/片段/QIMMicroTourRoot.html",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/Application/ViewController/Login/QIMLoginViewController.xib",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Audio/end.wav",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Audio/right_answer.mp3",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Audio/新咨询的播报.wav",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Certificate/certificate.der",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Certificate/public_key.der",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Certificate/public_key.pem",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Certificate/pub_key.pem",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Certificate/pub_key_chat_dev.pem",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Certificate/pub_key_chat_release.pem",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Certificate/pub_key_talk_release.pem",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Fonts/DS-DIGI.TTF",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Fonts/DS-DIGIB.TTF",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Fonts/DS-DIGII.TTF",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Fonts/DS-DIGIT.TTF",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Fonts/iconfont.eot",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Fonts/iconfont.ttf",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Fonts/iconfont.woff",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Fonts/ops_opsapp.eot",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Fonts/ops_opsapp.svg",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Fonts/ops_opsapp.ttf",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Fonts/ops_opsapp.woff",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Fonts/QTalk-QChat.eot",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Fonts/QTalk-QChat.html",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Fonts/QTalk-QChat.svg",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Fonts/QTalk-QChat.ttf",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Fonts/QTalk-QChat.woff",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Fonts/方正兰亭黑简.TTF",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Stickers/EmojiOne.zip",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/Stickers/qunar_camel.zip",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/QIMUIKit.xcassets",
+				"${PODS_ROOT}/QIMUIKit/QIMUIKit/QIMUIKitResources/QIMI18N.bundle",
+				"${PODS_ROOT}/QIMUIKit/QIMUIVendorKit/QIMArrowView/QIMArrowCellTableViewCell.xib",
+				"${PODS_ROOT}/QIMUIKit/QIMUIVendorKit/QIMDaePickerView/QIMWSDatePickerView.xib",
+				"${PODS_ROOT}/../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QIMCommonResource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/call_bg@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_audio_receive_normal@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_audio_receive_press@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_camera_white@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_invite_black@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_invite_blue@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_invite_gray@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_invite_white@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_loudspeaker_black@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_loudspeaker_blue@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_loudspeaker_gray@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_loudspeaker_white@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_mute_black@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_mute_blue@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_mute_gray@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_mute_white@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_reduce_black@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_reduce_blue@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_reduce_gray@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_reduce_white@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_video_black@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_video_blue@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_video_gray@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_avp_video_white@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_av_audio_micro_normal@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_av_audio_micro_press@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_av_audio_receive_normal@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_av_audio_receive_press@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_av_reply_message_normal@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_av_reply_message_press@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_call_reject_normal@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_call_reject_press@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/im_skin_icon_audiocall_bg.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/portrait.jpg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/portrait@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/voip_camera_icons_130x130_@1x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/voip_camera_icons_66x66_@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/voip_convert_icons_130x130_@1x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/voip_convert_icons_66x66_@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AVChat_busy.mp3",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AVChat_endCall.mp3",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AVChat_incoming.mp3",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AVChat_waitingForAnswer.mp3",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/incomingRing.wav",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Message_system.mp3",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QIMPinYin.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QIMSourceCode.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CKEditor5.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EditPasswordView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QIMRNKit.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/eula.html",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NetWorkSetting.html",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QIMMicroTourRoot.css",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QIMMicroTourRoot.html",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QIMLoginViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/end.wav",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/right_answer.mp3",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/新咨询的播报.wav",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/certificate.der",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/public_key.der",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/public_key.pem",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pub_key.pem",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pub_key_chat_dev.pem",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pub_key_chat_release.pem",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pub_key_talk_release.pem",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DS-DIGI.TTF",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DS-DIGIB.TTF",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DS-DIGII.TTF",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DS-DIGIT.TTF",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/iconfont.eot",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/iconfont.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/iconfont.woff",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ops_opsapp.eot",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ops_opsapp.svg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ops_opsapp.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ops_opsapp.woff",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QTalk-QChat.eot",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QTalk-QChat.html",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QTalk-QChat.svg",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QTalk-QChat.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QTalk-QChat.woff",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/方正兰亭黑简.TTF",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EmojiOne.zip",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/qunar_camel.zip",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Assets.car",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QIMI18N.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QIMArrowCellTableViewCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QIMWSDatePickerView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CYLTabBarController/Pods-CYLTabBarController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B2F02C6CEFA9E652D86AB7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CYLTabBarController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F936C43F8E0282CB76031412 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CYLTabBarController/Pods-CYLTabBarController-frameworks.sh",
+				"${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks/WebRTC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CYLTabBarController/Pods-CYLTabBarController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AE942701BDC91B800354519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C95C44A227559AF00FDBB8D /* UIBarButtonItem+CYLBadgeExtention.m in Sources */,
+				2C95C453227559AF00FDBB8D /* CYLTabBar+CYLTabBarControllerExtention.m in Sources */,
+				9A1559DC1CB6D56500CAB1AF /* CYLMessageViewController.m in Sources */,
+				2C95C452227559AF00FDBB8D /* CAAnimation+CYLBadgeExtention.m in Sources */,
+				9AE0BD3122303BA800302A35 /* CYLMainRootViewController.m in Sources */,
+				9A1559DE1CB6D56500CAB1AF /* CYLDetailsViewController.m in Sources */,
+				9A1559E41CB6EB1F00CAB1AF /* CYLPlusButtonSubclass.m in Sources */,
+				9A1559DF1CB6D56500CAB1AF /* CYLSameCityViewController.m in Sources */,
+				2C95C454227559AF00FDBB8D /* CYLTabBar.m in Sources */,
+				2C95C44D227559AF00FDBB8D /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,
+				2C95C44C227559AF00FDBB8D /* UIView+CYLTabBarControllerExtention.m in Sources */,
+				2C95C455227559AF00FDBB8D /* CYLPlusButton.m in Sources */,
+				2C95C45A227559AF00FDBB8D /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
+				2C95C44E227559AF00FDBB8D /* CYLTabBarController.m in Sources */,
+				9A1559DB1CB6D56500CAB1AF /* CYLHomeViewController.m in Sources */,
+				2C95C450227559AF00FDBB8D /* UITabBarItem+CYLBadgeExtention.m in Sources */,
+				2C95C44B227559AF00FDBB8D /* CYLBaseTableViewController.m in Sources */,
+				2C95C451227559AF00FDBB8D /* UIView+CYLBadgeExtention.m in Sources */,
+				9A1559C81CB6D4D300CAB1AF /* AppDelegate.m in Sources */,
+				9A7C59902181C39000EDB266 /* MainTabBarController.m in Sources */,
+				2C95C457227559AF00FDBB8D /* UIViewController+CYLNavigationControllerExtention.m in Sources */,
+				2C95C458227559AF00FDBB8D /* CYLBaseViewController.m in Sources */,
+				2C95C456227559AF00FDBB8D /* UIImage+CYLTabBarControllerExtention.m in Sources */,
+				2C95C459227559AF00FDBB8D /* UIControl+CYLTabBarControllerExtention.m in Sources */,
+				9A1559DD1CB6D56500CAB1AF /* CYLMineViewController.m in Sources */,
+				9AE942F11BDC933E00354519 /* main.m in Sources */,
+				9AC0181B1FE90AA1001EC2D6 /* CYLPlusDemoChildViewController.m in Sources */,
+				2C95C44F227559AF00FDBB8D /* CYLBaseNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9AE942CB1BDC933E00354519 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AE942CC1BDC933E00354519 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		9AE942CD1BDC933E00354519 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AE942CE1BDC933E00354519 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AE942951BDC91B900354519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AE942961BDC91B900354519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AE942981BDC91B900354519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89D5086598A9EFD751C286DB /* Pods-CYLTabBarController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2NJT7K4VZ7;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CYL.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		9AE942991BDC91B900354519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A12E1E008D40054CA1B0110 /* Pods-CYLTabBarController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2NJT7K4VZ7;
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CYL.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AE9426F1BDC91B800354519 /* Build configuration list for PBXProject "CYLTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE942951BDC91B900354519 /* Debug */,
+				9AE942961BDC91B900354519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE942971BDC91B900354519 /* Build configuration list for PBXNativeTarget "CYLTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE942981BDC91B900354519 /* Debug */,
+				9AE942991BDC91B900354519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AE9426C1BDC91B800354519 /* Project object */;
+}
